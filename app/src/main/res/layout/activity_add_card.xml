@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/_2f9a138" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/addcard"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnBack2"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-37dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="-33dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-33dp"
+        app:srcCompat="@drawable/baseline_notifications_none_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/cardtype"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etCardType"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter card type"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/cardno1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etCardNo"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/entercardno"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/cardholdersName"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etCHname"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/entercardholdersname"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/expdate"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etExpDate"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/enterexpirydate"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/cvcno"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etCVCNo"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/entercvcnumber"
+        android:inputType="date"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnUpdateData2"
+        android:layout_width="109dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/submit"
+        android:background="@android:color/holo_orange_light" />
+
+</LinearLayout>

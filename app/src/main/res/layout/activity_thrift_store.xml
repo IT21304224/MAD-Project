@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ThriftStore">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/_2f9a138" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/carddetails"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnBack2"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-37dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="-33dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-33dp"
+        app:srcCompat="@drawable/baseline_notifications_none_24" />
+
+
+    <TextView
+        android:id="@+id/shoename"
+        android:layout_width="245dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Nike air second hand shoes for sale" />
+
+    <TextView
+        android:id="@+id/shoePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="100dp"
+        android:text="Rs 3500 with 10% Offer"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shoeDescription"
+        android:layout_width="382dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Original nike air shoe for sale.In good condition.Can return goods if there is a problem"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFA500"
+        android:text="Buy Now"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/editButton1"
+        android:layout_width="136dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F7F0E2"
+        android:text="Edit Details" />
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="140dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-60dp"
+        android:background="#F7F0E2"
+        android:text="Delete Item" />
+
+</LinearLayout>
